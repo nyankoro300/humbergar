@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue";
+}
+
+.A-B {
+  display: flex;
+  flex-direction: row;
+}
+
+.A {
+  width: 80%;
+}
+
+.B {
+  width: 20%;
+  background-color: #F8F7F7;
+}
+
+header {
+  background-color: #F2EDE9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  font-weight: bold;
+}
+
+header .header-left {
+  color: #707070;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+header .header-right {
+  margin-right: 20px;
+}
+
+.top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.top .top-phot {
+  background-size: contain;
+  width: 100%;
+}
+
+.top p {
+  position: absolute;
+  color: white;
+  margin-left: 30px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-phot1 {
+  display: flex;
+  position: relative;
+  margin: 0 30px 0 60px;
+  align-items: flex-end;
+  height: 900px;
+}
+
+.main-phot1-top {
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  font-weight: bold;
+}
+
+.main-phot1-bottom {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-phot1-bottom-1 {
+  background: rgba(253, 253, 253, 0.8);
+  margin: 10px;
+}
+
+.main-phot1-bottom-1 .p1 {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.main-phot1-bottom-1 .p2 {
+  margin: 16px;
+  font-size: 14px;
+}
+
+.main-phot2 {
+  display: flex;
+  position: relative;
+  margin: 0 60px 0 30px;
+  align-items: flex-end;
+  height: 900px;
+}
+
+.main-phot2-top {
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  font-weight: bold;
+}
+
+.map {
+  margin-top: 80px;
+}
+
+.map-jpg {
+  display: flex;
+  position: relative;
+}
+
+.map-jpg-1 {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.map-jpg-bcg {
+  height: 100%;
+  width: 60%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+
+.map-jpg-bcg-p {
+  color: white;
+  position: static;
+  flex-direction: column;
+  margin: 80px;
+}
+
+.map-jpg-bcg-p1 {
+  margin-bottom: 50px;
+  font-size: 26px;
+}
+
+footer {
+  background-color: #9D8670;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .p1 {
+  margin-top: 24px;
+}
+
+footer .p2 {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.B-container {
+  margin: 30px;
+  color: #707070;
+}
+
+.menu {
+  font-weight: bold;
+}
+
+.burger, .side, .drink {
+  margin-top: 50px;
+  font-weight: lighter;
+}
+
+.burger-menu, .side-menu, .drink-menu {
+  list-style: none;
+  margin: 0;
+  margin-top: 1px;
+}
+
+.burger-menu li, .side-menu li, .drink-menu li {
+  margin-top: 10px;
+  font-size: 14px;
+}
